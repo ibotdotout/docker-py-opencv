@@ -47,3 +47,9 @@ app
 $ sudo docker build -t py-opencv app
 $ sudo docker run -v $PWD/app:/app -v /tmp:/tmp py-opencv bin/venv python main.py
 ```
+
+### Refereneces::
+1. [Python runtime Dockerfile](https://registry.hub.docker.com/u/dockerfile/python-runtime/)
+2. [jenkins-docker-sample](https://github.com/orangain/jenkins-docker-sample)
+3. [Activating a virtualenv in supervisord](http://mindtrove.info/til-virtualenv-supervisord/)
+4. [Managing Data in Containers](https://docs.docker.com/userguide/dockervolumes/)
