@@ -9,7 +9,6 @@ Docker for Python-Opencv based on Debian sid
  - python-virtualenv
  - python-opencv
  - python-matplotlib
- - 
  
 ### Usage
 1. Update your python packages into `requirments.txt`
