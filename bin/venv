@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# enable rednose color
+export NOSE_REDNOSE=1
+
+# set virutalenv path
+VENVPATH=/tmp/env
+
+# create virtualenv with system packages
+virtualenv --system-site-packages $VENVPATH
+
+# activate virtualenv
+. $VENVPATH/bin/activate
+
+# install python packages from requirements.txt
+pip install -r requirements.txt
+
+# execute arguments
+exec "$@"
+
+# deactivate virtualenv
+deactivate
