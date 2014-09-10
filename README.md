@@ -44,6 +44,6 @@ app
 - Commands
 
 ```sh
-$ sudo docker build -t py-opencv .
+$ sudo docker build -t py-opencv app
 $ sudo docker run -v $PWD/app:/app -v /tmp:/tmp py-opencv bin/venv python main.py
 ```
