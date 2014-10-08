@@ -10,12 +10,6 @@ Docker for Python-Opencv based on Debian sid
  - python-opencv
  - python-matplotlib
  
-### Python Testing packages::
- - mock
- - nose coverage rednose nose-cov nosexcover nose_xunitmp
- - watchdog
- - robotframework robotframework-pabot
- 
 ### Usage
 1. Update your python packages into `requirments.txt`
 2. Edit virtualenv path in `bin/venv` default is `/tmp/env`
