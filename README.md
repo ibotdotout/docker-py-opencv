@@ -3,12 +3,18 @@ Docker-python-opencv
 
 Docker for Python-Opencv based on Debian sid
 
-###Linux Package::  
+### Linux Package::  
  - python (2.7)  
  - python-pip  
  - python-virtualenv
  - python-opencv
  - python-matplotlib
+ 
+### Python Testing packages::
+ - mock
+ - nose coverage rednose nose-cov nosexcover nose_xunitmp
+ - watchdog
+ - robotframework robotframework-pabot
  
 ### Usage
 1. Update your python packages into `requirments.txt`
